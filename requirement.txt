@@ -1,0 +1,5 @@
+opencv
+rustup
+autopy
+python ==3.7
+
