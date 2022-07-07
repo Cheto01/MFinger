@@ -6,4 +6,3 @@ import HandTrackingModule as htm
 
 cap= cv2.VideoCapture(1)
 
-while True

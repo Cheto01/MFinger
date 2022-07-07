@@ -1,5 +1,8 @@
+python ==3.7
 opencv
 rustup
 autopy
-python ==3.7
+mediapipe
+cvzone
+
 
