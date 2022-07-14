@@ -47,7 +47,6 @@ while True:
         cv2.putText(img,f'{distance_cm}cm',(x,y),cv2.FONT_HERSHEY_SCRIPT_COMPLEX,0.9, (0,5,5))
 
 
-
     cv2.imshow("Image", img)
     cv2.waitKey(1)
 
