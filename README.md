@@ -1,5 +1,5 @@
 # MFinger
-MFinger is a cv2 and hand based mouse
+MFinger is a cv2 and hand based tracker
 
 It uses Cv2 to track the hand motion. 
 The ultimate goal of this tool is to substitute some mouse functionalities with hand gestures like cursor, right and left clicks.
