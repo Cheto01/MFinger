@@ -13,7 +13,7 @@ cap.set(3, wCam)
 cap.set(4,hCam)
 pTime = 0
 
-detector = HandDetector(detectionCon=0.4, maxHands=1)
+detector = HandDetector(detectionCon=0.4, maxHands=2)
 
 
 while True:
@@ -21,7 +21,7 @@ while True:
     hands, img = detector.findHands(img)
     if hands:
         lmList = hands[0]['lmList']
-        print(lmList[4])
+        print(lmList[4], lmList[8])
 
         x1,y1,z1 = lmList[4]
         x2,y2,z2 = lmList[8]
